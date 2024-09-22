@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div>
+    <div class="about">
         <p>
             PK has been The City&apos;s leading private military firm since its inception. From businesses
             to
@@ -12,8 +12,20 @@
 </template>
 
 <style scoped>
-p{
+.about {
+    margin: 0 auto;
+    padding: 0 3em;
+}
+
+p {
     font-size: 2em;
+    font-weight: 600;
     text-align: center;
+}
+
+@media(min-width: 1024px) {
+    .about {
+        max-width: 1024px;
+    }
 }
 </style>
