@@ -30,16 +30,18 @@ button {
   display: inline-block;
   position: relative;
   background-color: #FF8A00;
-  color: white;
+  color: var(--primary-text);
   border: none;
   font-size: 1em;
   font-weight: 600;
   padding: 0.5em 1em;
   margin-top: 1.5em;
+  transition: all 0.2s ease;
 }
 
 button:hover {
-  color: var(--primary-text);
-  transition: all 0.2s ease;
+  background-color: #FF8A00;
+  color: #FFF;
+  cursor: pointer;
 }
 </style>

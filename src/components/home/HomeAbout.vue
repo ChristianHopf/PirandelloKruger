@@ -12,14 +12,20 @@
 </template>
 
 <style scoped>
-.about{
-    max-width: 1024px;
+.about {
     margin: 0 auto;
+    padding: 0 3em;
 }
 
-p{
+p {
     font-size: 2em;
     font-weight: 600;
     text-align: center;
+}
+
+@media(min-width: 1024px) {
+    .about {
+        max-width: 1024px;
+    }
 }
 </style>

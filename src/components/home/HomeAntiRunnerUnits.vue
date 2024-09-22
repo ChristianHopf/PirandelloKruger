@@ -18,7 +18,7 @@
 
 <style scoped>
 .card {
-    margin: 10rem auto;
+    margin: 2rem auto;
     display: flex;
     flex-direction: column-reverse;
     /* max-width: 1024px; */
@@ -27,14 +27,14 @@
 }
 
 img {
-    width: 48%;
+    max-width: 75vw;
     border: 2px solid;
     border-color: black;
     border-radius: 0.75em;
 }
 
 .card-content {
-    max-width: 50%;
+    max-width: 75vw;
 }
 
 .card-content h1 {
@@ -57,7 +57,16 @@ img {
 @media(min-width: 1024px) {
     .card {
         flex-direction: row;
+        align-items: start;
         max-width: 1024px;
+    }
+
+    img {
+        max-width: 50%;
+    }
+
+    .card-content {
+        max-width: 50%;
     }
 }
 </style>

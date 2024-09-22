@@ -19,23 +19,22 @@
 
 <style scoped>
 .card {
-    margin: 10rem auto;
+    margin: 6rem auto;
     display: flex;
     flex-direction: column;
-    /* max-width: 1024px; */
     align-items: center;
     gap: 2rem;
 }
 
 img {
-    width: 50%;
+    max-width: 75vw;
     border: 2px solid;
     border-color: black;
     border-radius: 0.75em;
 }
 
 .card-content {
-    max-width: 50%;
+    max-width: 75vw;
 }
 
 .card-content h1 {
@@ -51,20 +50,19 @@ img {
     color: var(--secondary-text);
 }
 
-/* .card-content button {
-    background-color: #FF8A00;
-    color: white;
-    border: none;
-    font-size: 1em;
-    font-weight: 600;
-    padding: 0.5em 1em;
-    margin-top: 1.5em;
-} */
-
 @media(min-width: 1024px) {
     .card {
         flex-direction: row;
+        align-items: start;
         max-width: 1024px;
+    }
+
+    img {
+        max-width: 50%;
+    }
+
+    .card-content {
+        max-width: 50%;
     }
 }
 </style>

@@ -22,14 +22,15 @@ header {
     width: 100%;
     padding: 1em 0;
 }
-header img{
+
+header img {
     width: 48px;
     height: auto;
 }
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1280px;
+    padding: 0 3em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,5 +57,11 @@ nav a {
     color: #FF8A00;
     font-size: 2em;
     font-weight: 600;
+}
+
+@media(min-width: 1024px) {
+    .wrapper {
+        max-width: 1024px;
+    }
 }
 </style>
