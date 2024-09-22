@@ -5,7 +5,7 @@
 <template>
     <header>
         <div class="wrapper">
-            <h1>PK</h1>
+            <img src="/src/assets/images/pk_dog.png" alt="">
             <nav>
                 <a href="/">HOME</a>
                 <a href="/">MISSION</a>
@@ -20,6 +20,11 @@
 <style scoped>
 header {
     width: 100%;
+    padding: 1em 0;
+}
+header img{
+    width: 48px;
+    height: auto;
 }
 
 .wrapper {
@@ -50,6 +55,6 @@ nav a {
     text-decoration: none;
     color: #FF8A00;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 600;
 }
 </style>
