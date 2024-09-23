@@ -24,6 +24,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    padding: 0 3em;
 }
 
 img {

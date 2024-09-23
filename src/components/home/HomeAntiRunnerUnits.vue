@@ -24,6 +24,7 @@
     /* max-width: 1024px; */
     align-items: center;
     gap: 2rem;
+    padding: 0 3em;
 }
 
 img {
