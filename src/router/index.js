@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import SecurityGuardsView from "../view/SecurityGuardsView.vue";
+import SecurityGuardsView from "../views/SecurityGuardsView.vue";
 // import ProjectIcarusView from "../ProjectIcarusView.vue";
 
 const router = createRouter({
