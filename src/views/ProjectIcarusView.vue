@@ -6,6 +6,7 @@
     <main>
         <section class="container">
             <div id="content">
+                <h1>PROJECT ICARUS</h1>
             </div>
         </section>
     </main>

@@ -6,6 +6,7 @@
     <main>
         <section class="container">
             <div id="content">
+                <h1>SECURITY GUARDS</h1>
             </div>
         </section>
     </main>
