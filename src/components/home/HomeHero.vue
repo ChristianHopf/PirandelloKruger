@@ -3,7 +3,10 @@
 
 <template>
     <div class="hero">
-        <img src="@/assets/images/default_hero_bg.webp" alt="Pirandello Kruger">
+        <!-- <img src="@/assets/images/default_hero_bg.webp" alt="Pirandello Kruger"> -->
+        <video autoplay muted loop>
+            <source src="@/assets/images/pk_hero.mp4" type="video/mp4">
+        </video>
         <div class="hero-text">
             <h1>PIRANDELLO KRUGER</h1>
             <p>SECURING YOUR WORLD</p>
@@ -18,12 +21,19 @@
     height: 658px;
 }
 
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .hero img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.hero-text{
+
+.hero-text {
     display: flex;
     position: absolute;
     bottom: 0;
@@ -50,5 +60,6 @@
     color: white;
     margin: 0 auto;
     font-size: 5rem;
+    font-weight: 700;
 }
 </style>
