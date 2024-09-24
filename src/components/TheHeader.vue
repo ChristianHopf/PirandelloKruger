@@ -20,7 +20,7 @@
 <style scoped>
 header {
     width: 100%;
-    padding: 1em 0;
+    padding: 1rem 0;
 }
 
 header img {
@@ -30,7 +30,7 @@ header img {
 
 .wrapper {
     margin: 0 auto;
-    padding: 0 3em;
+    padding: 0 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +55,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #FF8A00;
-    font-size: 2em;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 

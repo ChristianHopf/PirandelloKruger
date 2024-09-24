@@ -47,18 +47,18 @@
 <style scoped>
 footer {
     width: 100%;
-    padding: 1em 0;
+    padding: 1rem 0;
     margin-top: 6rem;
 }
 
 .footer-pk {
     display: flex;
     align-items: start;
-    gap: 1.5em;
+    gap: 1.5rem;
     color: #FF8A00;
 }
 h1{
-    font-size: 1.75em;
+    font-size: 1.75rem;
     margin: 0 auto;
 }
 
@@ -77,9 +77,9 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 3em;
+    padding: 0 3rem;
     align-items: center;
-    gap: 3em;
+    gap: 3rem;
 }
 
 .links {
@@ -91,7 +91,7 @@ p {
 h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.75rem;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     color: #FF8A00;
 }
 
@@ -99,7 +99,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 0.75em;
+    gap: 0.75rem;
 }
 
 a {

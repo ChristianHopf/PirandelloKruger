@@ -14,11 +14,11 @@
 <style scoped>
 .about {
     margin: 0 auto;
-    padding: 0 3em;
+    padding: 0 3rem;
 }
 
 p {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 600;
     text-align: center;
 }
