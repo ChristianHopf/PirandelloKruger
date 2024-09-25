@@ -1,4 +1,6 @@
 <script setup>
+import router from '@/router';
+
 </script>
 
 <template>
@@ -10,7 +12,7 @@
                 the future of information
                 with <span class="accent">Project Icarus.</span>
             </p>
-            <button>JOIN THE WAITLIST</button>
+            <button @click="router.push('/project-icarus')">JOIN THE WAITLIST</button>
         </div>
         <img src="/src/assets/images/pk_pursuit.png" alt="">
     </div>
