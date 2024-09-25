@@ -1,12 +1,15 @@
 <script setup>
+import ProjectIcarusAbout from '@/components/project-icarus/ProjectIcarusAbout.vue';
+
 
 </script>
 
 <template>
     <main>
         <section class="container">
+            <ProjectIcarusAbout />
             <div id="content">
-                <h1>PROJECT ICARUS</h1>
+                
             </div>
         </section>
     </main>
