@@ -9,7 +9,6 @@
             <nav>
                 <a href="/">HOME</a>
                 <a href="/">MISSION</a>
-                <a href="/">ABOUT</a>
                 <a href="/">SERVICES</a>
                 <a href="/">CONTACT</a>
             </nav>
@@ -21,6 +20,10 @@
 header {
     width: 100%;
     padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
 }
 
 header img {
