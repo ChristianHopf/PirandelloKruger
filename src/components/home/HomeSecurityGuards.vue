@@ -1,4 +1,6 @@
 <script setup>
+import router from '@/router';
+
 </script>
 
 <template>
@@ -12,7 +14,7 @@
                 what.
                 Choose a protection tier that fits your budget.
             </p>
-            <button>RESERVE TODAY</button>
+            <button @click="router.push('/security-guards')">RESERVE TODAY</button>
         </div>
     </div>
 </template>
