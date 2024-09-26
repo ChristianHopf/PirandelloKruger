@@ -36,10 +36,12 @@
 
 html{
   scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 body{
   margin: 0 auto;
+  /* overflow-x: hidden; */
 }
 
 #app {

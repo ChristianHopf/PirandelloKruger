@@ -18,16 +18,12 @@
 <style scoped>
 .hero {
     position: relative;
-    height: 658px;
+    width: 100%;
+    height: calc(100vh - 4rem);
 }
+
 
 video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.hero img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -52,14 +48,32 @@ video {
 .hero-text h1 {
     color: #FF8A00;
     margin: 0 auto;
-    font-size: 7rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
 .hero-text p {
     color: white;
     margin: 0 auto;
-    font-size: 5rem;
+    font-size: 1.75rem;
     font-weight: 700;
+}
+
+/* @media(min-width: 768px) {
+    .hero {
+        height: 658px;
+    }
+
+    .hero-text h1 {}
+} */
+
+@media(min-width: 1024px) {
+    .hero-text h1 {
+        font-size: 7rem;
+    }
+
+    .hero-text p {
+        font-size: 5rem;
+    }
 }
 </style>
