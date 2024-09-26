@@ -34,6 +34,10 @@
   --secondary-text: #8B8B8B;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 0 auto;
 }

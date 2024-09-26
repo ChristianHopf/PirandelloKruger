@@ -9,7 +9,7 @@
             <nav>
                 <a href="/">HOME</a>
                 <a href="/">MISSION</a>
-                <a href="/">SERVICES</a>
+                <a href="#content">SERVICES</a>
                 <a href="/">CONTACT</a>
             </nav>
         </div>
