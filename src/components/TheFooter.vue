@@ -16,27 +16,38 @@
                 <div id="services-links">
                     <h2>SECURITY</h2>
                     <nav>
-                        <a href="/">ON-PREMISES</a>
-                        <a href="/">CYBERSECURITY</a>
-                        <a href="/">TRANSPORTATION</a>
-                        <a href="/">PROJECT ICARUS</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">ON-PREMISES</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CYBERSECURITY</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">TRANSPORTATION</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">PROJECT ICARUS</a>
                     </nav>
                 </div>
                 <div id="info-links">
                     <h2>INFO</h2>
                     <nav>
-                        <a href="/">CAREERS</a>
-                        <a href="/">CONTACT US</a>
-                        <a href="/">PRIVACY POLICY</a>
-                        <a href="/">SUPPORT</a>
-                        <a href="/">PRESS</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CAREERS</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CONTACT US</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">PRIVACY POLICY</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">SUPPORT</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">PRESS</a>
                     </nav>
                 </div>
                 <div id="partners-links">
                     <h2>PARTNERS</h2>
                     <nav>
-                        <a href="/">CALLAGHAN</a>
-                        <a href="/">CITY EYE NEWS</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CALLAGHAN</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CITY EYE NEWS</a>
                     </nav>
                 </div>
             </div>
@@ -57,7 +68,8 @@ footer {
     gap: 1.5rem;
     color: #FF8A00;
 }
-h1{
+
+h1 {
     font-size: 1.75rem;
     margin: 0 auto;
 }
