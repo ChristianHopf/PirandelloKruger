@@ -9,8 +9,7 @@
             <nav>
                 <a href="/">HOME</a>
                 <a href="/">MISSION</a>
-                <a href="/">ABOUT</a>
-                <a href="/">SERVICES</a>
+                <a href="#content">SERVICES</a>
                 <a href="/">CONTACT</a>
             </nav>
         </div>
@@ -20,7 +19,11 @@
 <style scoped>
 header {
     width: 100%;
-    padding: 1em 0;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
 }
 
 header img {
@@ -30,7 +33,7 @@ header img {
 
 .wrapper {
     margin: 0 auto;
-    padding: 0 3em;
+    padding: 0 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +58,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #FF8A00;
-    font-size: 2em;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
