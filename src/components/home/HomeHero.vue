@@ -48,14 +48,14 @@ video {
 .hero-text h1 {
     color: #FF8A00;
     margin: 0 auto;
-    font-size: 3.5rem;
+    font-size: 3.25rem;
     font-weight: 700;
 }
 
 .hero-text p {
     color: white;
     margin: 0 auto;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 

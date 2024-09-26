@@ -96,8 +96,10 @@ p {
 
 .links {
     display: flex;
+    width: 100%;
     flex-direction: row;
-    gap: 2rem;
+    justify-content: center;
+    gap: 1.75rem;
 }
 
 h2 {
