@@ -1,4 +1,6 @@
 <script setup>
+import router from '@/router';
+
 </script>
 
 <template>
@@ -10,7 +12,7 @@
                 the future of information
                 with <span class="accent">Project Icarus.</span>
             </p>
-            <button>JOIN THE WAITLIST</button>
+            <button @click="router.push('/project-icarus')">JOIN THE WAITLIST</button>
         </div>
         <img src="/src/assets/images/pk_pursuit.png" alt="">
     </div>
@@ -24,13 +26,14 @@
     /* max-width: 1024px; */
     align-items: center;
     gap: 2rem;
+    padding: 0 3rem;
 }
 
 img {
     max-width: 75vw;
     border: 2px solid;
     border-color: black;
-    border-radius: 0.75em;
+    border-radius: 0.75rem;
 }
 
 .card-content {
@@ -38,14 +41,14 @@ img {
 }
 
 .card-content h1 {
-    font-size: 3em;
+    font-size: 3rem;
     margin: 0;
     font-weight: 600;
 }
 
 .card-content p {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--secondary-text);
 }
