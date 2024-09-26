@@ -58,8 +58,8 @@
 <style scoped>
 footer {
     width: 100%;
+    margin: 6rem auto 0 auto;
     padding: 1rem 0;
-    margin-top: 6rem;
 }
 
 .footer-pk {
@@ -70,7 +70,7 @@ footer {
 }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     margin: 0 auto;
 }
 
@@ -85,11 +85,11 @@ p {
 }
 
 .wrapper {
-    margin: 0 auto;
     display: flex;
+    max-width: 100%;
+    /* margin: 0 auto; */
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 3rem;
     align-items: center;
     gap: 3rem;
 }
@@ -97,13 +97,13 @@ p {
 .links {
     display: flex;
     flex-direction: row;
-    gap: 6rem;
+    gap: 2rem;
 }
 
 h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.75rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #FF8A00;
 }
 
@@ -114,9 +114,10 @@ nav {
     gap: 0.75rem;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: black;
+    font-size: 0.75rem;
     font-weight: 600;
     transition: all 0.2s ease;
 }
@@ -125,11 +126,33 @@ a:hover {
     color: #FF8A00;
 }
 
+@media(min-width: 768px) {}
+
 @media(min-width: 1024px) {
     .wrapper {
         max-width: 1024px;
+        margin: 0 auto;
         flex-direction: row;
         align-items: start;
+    }
+    .footer-pk{
+        align-items: center;
+    }
+    h1{
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+
+    .links {
+        flex-direction: row;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1rem;
     }
 }
 </style>
