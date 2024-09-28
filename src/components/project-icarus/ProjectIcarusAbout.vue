@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <div class="flex flex-col my-4 mx-6 gap-2 md:mx-auto md:px-12 md:max-w-screen-lg">
+    <div class="flex flex-col my-6 mx-6 gap-2 md:mx-auto md:px-12 md:max-w-screen-lg">
         <h1 class="font-semibold text-4xl md:text-5xl">RUNNERS ARE FAST. PK IS FASTER.</h1>
-        <p class="text-xl text-[#8B8B8B]">
+        <p class="text-lg text-[#8B8B8B]">
             Project Icarus aims to recapture the world of information security from criminals known as “runners.” See
             how Project Icarus can protect your sensitive information from its most adept would-be thieves.
         </p>
