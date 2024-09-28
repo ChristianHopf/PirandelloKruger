@@ -1,4 +1,5 @@
 <script setup>
+import MailingListForm from '@/components/project-icarus/MailingListForm.vue';
 import ProjectIcarusAbout from '@/components/project-icarus/ProjectIcarusAbout.vue';
 import ProjectIcarusCards from '@/components/project-icarus/ProjectIcarusCards.vue';
 
@@ -11,6 +12,7 @@ import ProjectIcarusCards from '@/components/project-icarus/ProjectIcarusCards.v
             <ProjectIcarusAbout />
             <div id="content">
                 <ProjectIcarusCards />
+                <MailingListForm />
             </div>
         </section>
     </main>
