@@ -9,7 +9,7 @@
             <nav>
                 <a href="/">HOME</a>
                 <a href="/">MISSION</a>
-                <a href="/">SERVICES</a>
+                <a href="#content">SERVICES</a>
                 <a href="/">CONTACT</a>
             </nav>
         </div>
@@ -19,7 +19,7 @@
 <style scoped>
 header {
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -27,44 +27,54 @@ header {
 }
 
 header img {
-    width: 48px;
+    width: 32px;
     height: auto;
 }
 
 .wrapper {
     margin: 0 auto;
-    padding: 0 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.wrapper h1 {
-    /* margin: 0; */
-}
-
-/* .logo {
-  display: block;
-  margin: 0 auto 2rem;
-} */
-
 nav {
     display: flex;
-    font-size: 12px;
-    gap: 1.5rem;
-    /* margin-top: 2rem; */
+    gap: 1rem;
 }
 
 nav a {
     text-decoration: none;
     color: #FF8A00;
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     font-weight: 600;
+}
+
+@media(min-width: 768px) {
+    header {
+        padding: 1rem 0;
+    }
+
+    .wrapper {
+        padding: 0 3rem;
+    }
+
+    nav {
+        gap: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
 }
 
 @media(min-width: 1024px) {
     .wrapper {
         max-width: 1024px;
+    }
+
+    nav a {
+        font-size: 1.5rem;
     }
 }
 </style>

@@ -16,27 +16,38 @@
                 <div id="services-links">
                     <h2>SECURITY</h2>
                     <nav>
-                        <a href="/">ON-PREMISES</a>
-                        <a href="/">CYBERSECURITY</a>
-                        <a href="/">TRANSPORTATION</a>
-                        <a href="/">PROJECT ICARUS</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">ON-PREMISES</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CYBERSECURITY</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">TRANSPORTATION</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">PROJECT ICARUS</a>
                     </nav>
                 </div>
                 <div id="info-links">
                     <h2>INFO</h2>
                     <nav>
-                        <a href="/">CAREERS</a>
-                        <a href="/">CONTACT US</a>
-                        <a href="/">PRIVACY POLICY</a>
-                        <a href="/">SUPPORT</a>
-                        <a href="/">PRESS</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CAREERS</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CONTACT US</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">PRIVACY POLICY</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">SUPPORT</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">PRESS</a>
                     </nav>
                 </div>
                 <div id="partners-links">
                     <h2>PARTNERS</h2>
                     <nav>
-                        <a href="/">CALLAGHAN</a>
-                        <a href="/">CITY EYE NEWS</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CALLAGHAN</a>
+                        <a href="https://mirrorsedge.fandom.com/wiki/Pirandello_Kruger" target="_blank"
+                            rel="noopener noreferrer">CITY EYE NEWS</a>
                     </nav>
                 </div>
             </div>
@@ -47,8 +58,8 @@
 <style scoped>
 footer {
     width: 100%;
+    margin: 6rem auto 0 auto;
     padding: 1rem 0;
-    margin-top: 6rem;
 }
 
 .footer-pk {
@@ -57,8 +68,9 @@ footer {
     gap: 1.5rem;
     color: #FF8A00;
 }
-h1{
-    font-size: 1.75rem;
+
+h1 {
+    font-size: 1.25rem;
     margin: 0 auto;
 }
 
@@ -73,25 +85,27 @@ p {
 }
 
 .wrapper {
-    margin: 0 auto;
     display: flex;
+    max-width: 100%;
+    /* margin: 0 auto; */
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 3rem;
     align-items: center;
     gap: 3rem;
 }
 
 .links {
     display: flex;
+    width: 100%;
     flex-direction: row;
-    gap: 6rem;
+    justify-content: center;
+    gap: 1.75rem;
 }
 
 h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.75rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #FF8A00;
 }
 
@@ -102,9 +116,10 @@ nav {
     gap: 0.75rem;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: black;
+    font-size: 0.75rem;
     font-weight: 600;
     transition: all 0.2s ease;
 }
@@ -113,11 +128,33 @@ a:hover {
     color: #FF8A00;
 }
 
+@media(min-width: 768px) {}
+
 @media(min-width: 1024px) {
     .wrapper {
         max-width: 1024px;
+        margin: 0 auto;
         flex-direction: row;
         align-items: start;
+    }
+    .footer-pk{
+        align-items: center;
+    }
+    h1{
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+
+    .links {
+        flex-direction: row;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1rem;
     }
 }
 </style>
