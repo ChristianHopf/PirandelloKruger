@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <div class="about">
-        <h1>RUNNERS ARE FAST. PK IS FASTER.</h1>
-        <p>
+    <div class="flex flex-col my-4 mx-6 gap-2 md:mx-auto md:px-12 md:max-w-screen-lg">
+        <h1 class="font-semibold text-4xl md:text-5xl">RUNNERS ARE FAST. PK IS FASTER.</h1>
+        <p class="text-xl text-[#8B8B8B]">
             Project Icarus aims to recapture the world of information security from criminals known as “runners.” See
             how Project Icarus can protect your sensitive information from its most adept would-be thieves.
         </p>
@@ -17,18 +17,18 @@
     padding: 0 3rem;
 }
 
-h1 {
+/* h1 {
     font-size: 3rem;
     margin: 0;
     font-weight: 600;
-}
+} */
 
-p {
+/* p {
     margin: 0;
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--secondary-text);
-}
+} */
 
 @media(min-width: 1024px) {
     .about {
