@@ -1,20 +1,31 @@
 <script setup>
+import MailingListForm from '@/components/project-icarus/MailingListForm.vue';
+import ProjectIcarusAbout from '@/components/project-icarus/ProjectIcarusAbout.vue';
+import ProjectIcarusCards from '@/components/project-icarus/ProjectIcarusCards.vue';
+
 
 </script>
 
 <template>
     <main>
-        <section class="container">
+        <section class="wrapper">
+            <ProjectIcarusAbout />
             <div id="content">
-                <h1>PROJECT ICARUS</h1>
+                <ProjectIcarusCards />
+                <MailingListForm />
             </div>
         </section>
     </main>
 </template>
 
 <style>
-.container {
+.wrapper {
     position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#content {
     width: 100%;
     margin: 0 auto;
 }
