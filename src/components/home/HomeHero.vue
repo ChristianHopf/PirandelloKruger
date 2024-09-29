@@ -19,7 +19,7 @@
 .hero {
     position: relative;
     width: 100%;
-    height: calc(100vh - 4rem);
+    height: 24rem;
 }
 
 
@@ -66,7 +66,11 @@ video {
 
     .hero-text h1 {}
 } */
-
+@media(min-width: 768px){
+    .hero{
+        height: 46rem;
+    }
+}
 @media(min-width: 1024px) {
     .hero-text h1 {
         font-size: 7rem;
