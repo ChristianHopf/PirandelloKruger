@@ -59,11 +59,11 @@ img {
 
 @media(min-width: 768px) {
     .card-content h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .card-content p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
 
