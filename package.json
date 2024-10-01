@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
+    "coverage": "vitest run --coverage",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {

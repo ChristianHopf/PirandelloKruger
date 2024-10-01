@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="hero">
+    <div class="hero" data-test="home-hero">
         <!-- <img src="@/assets/images/default_hero_bg.webp" alt="Pirandello Kruger"> -->
         <video autoplay muted loop>
             <source src="@/assets/images/pk_hero.mp4" type="video/mp4">

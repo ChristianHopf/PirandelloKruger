@@ -7,10 +7,10 @@
         <div class="wrapper">
             <img src="/src/assets/images/pk_dog.png" alt="">
             <nav>
-                <a href="/">HOME</a>
-                <a href="/">MISSION</a>
-                <a href="#content">SERVICES</a>
-                <a href="/">CONTACT</a>
+                <router-link to="/">HOME</router-link>
+                <router-link to="/mission">MISSION</router-link>
+                <router-link to="#content">SERVICES</router-link>
+                <router-link to="/contact">CONTACT</router-link>
             </nav>
         </div>
     </header>
