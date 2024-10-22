@@ -41,7 +41,7 @@ img {
 }
 
 .card-content h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: 0;
     font-weight: 600;
 }
