@@ -5,7 +5,9 @@
 <template>
     <header>
         <div class="wrapper">
-            <img src="/src/assets/images/pk_dog.png" alt="">
+            <a href="/">
+                <img src="/src/assets/images/pk_dog.png" alt="">
+            </a>
             <nav>
                 <a href="/">HOME</a>
                 <a href="/">MISSION</a>
