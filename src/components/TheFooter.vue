@@ -137,16 +137,19 @@ a:hover {
         flex-direction: row;
         align-items: start;
     }
-    .footer-pk{
+
+    .footer-pk {
         align-items: center;
     }
-    h1{
+
+    h1 {
         font-size: 2rem;
         margin: 0 auto;
     }
 
     .links {
         flex-direction: row;
+        justify-content: end;
     }
 
     h2 {

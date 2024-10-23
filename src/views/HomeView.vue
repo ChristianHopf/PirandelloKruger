@@ -26,6 +26,10 @@ import HomeAntiRunnerUnits from '@/components/home/HomeAntiRunnerUnits.vue';
   margin: 0 auto;
 }
 
+#content{
+  padding-top: 1rem;
+}
+
 button {
   display: inline-block;
   position: relative;
