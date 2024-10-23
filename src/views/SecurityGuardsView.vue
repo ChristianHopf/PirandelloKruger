@@ -1,4 +1,7 @@
 <script setup>
+import SecurityGuardsAbout from '@/components/security-guards/SecurityGuardsAbout.vue';
+import SecurityGuardsCards from '@/components/security-guards/SecurityGuardsCards.vue'
+
 
 </script>
 
@@ -6,15 +9,21 @@
     <main>
         <section class="container">
             <div id="content">
-                <h1>SECURITY GUARDS</h1>
+                <SecurityGuardsAbout />
+                <SecurityGuardsCards />
             </div>
         </section>
     </main>
 </template>
 
 <style>
-.container {
+.wrapper {
     position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#content {
     width: 100%;
     margin: 0 auto;
 }
